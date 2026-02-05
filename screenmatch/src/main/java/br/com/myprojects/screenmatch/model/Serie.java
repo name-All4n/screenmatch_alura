@@ -21,7 +21,6 @@ public class Serie {
     private Categoria genero;
     private String atores;
     private String poster;
-    @Lob
     @Column(columnDefinition = "TEXT")
     private String sinopse;
 
